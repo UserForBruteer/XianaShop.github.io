@@ -12,12 +12,19 @@
     padding: 0;
     box-sizing: border-box;
   }
+  ul {
+        color: white;
+  }
 
   /* Global Styles */
   body {
+  background-image: url("https://i.ibb.co/80KkDnm/1.png");
+    background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
-    color: #333;
+    color: white;
     font-size: 16px;
     line-height: 1.5;
   }
@@ -39,12 +46,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    color: white;
   }
 
   nav ul {
     display: flex;
     list-style: none;
     margin-right: 30px;
+    color: white;
   }
 
   nav li {
@@ -75,10 +84,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .product {
+    color: #333;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -144,11 +154,10 @@
     text-align: center;
     line-height: 60px;
   }
-  
   </style>
   <body>
     <nav>
-      <ul>
+      <ul class="colll">
         <li><a href="#">Home</a></li>
         <li>!XIANA CLIENT BEST DEB!</li>
       </ul>
@@ -159,12 +168,21 @@
     </header>
     <main>
       <div class="product">
-        <img src="https://i.ibb.co/80KkDnm/1.png" alt="Product" />
         <div class="product-details">
           <h3>This is best hack for standoff 2</h3>
-          <p>Wanna buy? tap to button!</p>
+          <p>Overlay Deb!</p>
           <h3>Price: 200 руб.</h3>
           <a href="https://oplata.qiwi.com/form?invoiceUid=c6076ed5-f27b-420e-9b33-ceb94215f41a">
+          <button id="buy-now">Buy Now</button>
+</a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-details">
+          <h3>This is best hack for standoff 2</h3>
+          <p>Admin Deb!</p>
+          <h3>Price: 300 руб.</h3>
+          <a href="https://oplata.qiwi.com/form?invoiceUid=69041ba7-64d2-4595-a50e-c87025ee2535">
           <button id="buy-now">Buy Now</button>
 </a>
         </div>
